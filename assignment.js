@@ -34,7 +34,7 @@ function budgetCalculator(watchQuantity, mobileQuantitiy, laptopQuantity) {
 
 function hotelCost(days) {
 
-    var errorMsg = "Days can't be negative!"
+    var errorMsg = "Days can't be negative!";
 
     if (days < 0) {
         return errorMsg;
