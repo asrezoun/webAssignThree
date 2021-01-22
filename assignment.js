@@ -1,3 +1,4 @@
+//https://github.com/asrezoun/webAssignThree
 
 //problem one --> Converting kilometer to meter
 
@@ -5,8 +6,10 @@ function kilometerToMeter(distanceInKilo) {
 
     var errorMsg = "Distance can't be negative!";
 
-    if (distanceInKilo < 0)
+    if (distanceInKilo < 0){
         return errorMsg;
+    }
+        
 
     var distanceInMeter = distanceInKilo * 1000;
     return distanceInMeter;
